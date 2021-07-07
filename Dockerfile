@@ -44,7 +44,7 @@ RUN apk add --update chromium chromium-chromedriver
 
 ENV LIBRARY_PATH=/lib:/usr/lib
 
-RUN apk install git
+RUN apk add git
 
 RUN git config --global url."https://".insteadOf git://
 
